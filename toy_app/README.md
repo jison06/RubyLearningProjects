@@ -1,4 +1,4 @@
-# Toy Appp
+# Toy App
 
 Creation of a simple toy app using Rails scaffolding that includes:
 
