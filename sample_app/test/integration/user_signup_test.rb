@@ -22,5 +22,6 @@ class UserSignupTest < ActionDispatch::IntegrationTest
     follow_redirect!
     assert_template 'users/show'
     assert_select 'div.alert.alert-success'
+    assert user_logged_in?
   end
 end
